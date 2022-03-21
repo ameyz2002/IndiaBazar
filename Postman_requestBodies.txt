@@ -1,0 +1,131 @@
+1.POST 
+http://localhost:8080/indiabazaar/users/signin
+----------------------------------------
+{
+    "email": "admin@gmail.com",
+    "password": "admin"
+}
+-----------------------------------------
+{
+    "status": "OK",
+    "message": "Authentication Successful..!",
+    "result": {
+        "userId": 1,
+        "firstName": "AMEY",
+        "lastName": "PANADE",
+        "email": "admin@gmail.com",
+        "mobile": "8856080432",
+        "regDate": "2021-03-11",
+        "role": "ADMIN"
+    }
+}
+-------------------------------------------------
+-------------------------------------------------
+2.POST
+http://localhost:8080/indiabazaar/users/register
+-------------------------------------------------
+{
+    "firstName": "SOURABH",
+    "lastName": "MALI",
+    "email": "sourabh@gmail.com",
+    "password": "sourabh",
+    "mobile": "7620891525"
+}
+-------------------------------------------------
+{
+    "status": "OK",
+    "message": "User Registered Successfully..!!",
+    "result": {
+        "userId": 3,
+        "firstName": "SOURABH",
+        "lastName": "MALI",
+        "email": "sourabh@gmail.com",
+        "mobile": "7620891525",
+        "regDate": "2021-03-12",
+        "role": "CUSTOMER"
+    }
+}
+
+-------------------------------------------------
+-------------------------------------------------
+3.GET
+http://localhost:8080/indiabazaar/admin/userList
+-------------------------------------------------
+---------------------------------------------------
+4.DELETE
+http://localhost:8080/indiabazaar/admin/deleteUser/5
+---------------------------------------------------
+---------------------------------------------------
+5.POST
+http://localhost:8080/indiabazaar/admin/addUser
+----------------------------------------------------
+{
+    "firstName": "VIKAS",
+    "lastName": "PATEL",
+    "email": "vikas@gmail.com",
+    "password": "vikas",
+    "mobile": "1234567890",
+    "role": "STOREMGR"
+}
+-----------------------------------------------------
+{
+    "status": "OK",
+    "message": "User added Successfully..!!",
+    "result": {
+        "userId": 5,
+        "firstName": "VIKAS",
+        "lastName": "PATEL",
+        "email": "vikas@gmail.com",
+        "mobile": "1234567890",
+        "regDate": "2021-03-12",
+        "role": "STOREMGR"
+    }
+}
+-----------------------------------------------------------
+------------------------------------------------------------
+6.POST
+http://localhost:8080/indiabazaar/admin/addSeller
+---------------------------------------------------------
+{
+    "brandName": "Samsung",
+    "contact": "9850782671",
+    "address": "Sadashiv peth, Pune"
+}
+-------------------------------------------------------
+{
+    "status": "OK",
+    "message": "User Registered Successfully..!!",
+    "result": {
+        "sellerId": 1,
+        "brandName": "Samsung",
+        "contact": "9850782671",
+        "address": "Sadashiv peth, Pune"
+    }
+}
+-------------------------------------------------------------
+---------------------------------------------------------------
+7.GET
+http://localhost:8080/indiabazaar/admin/sellerList
+-------------------------------------------------------------
+------------------------------------------------------------
+8.DELETE
+http://localhost:8080/indiabazaar/admin/deleteSeller/2
+-------------------------------------------------------------------
+----------------------------------------------------------------
+9.POST
+http://localhost:8080/indiabazaar/admin/addCategory
+------------------------------------------------------------------
+{
+	"catName": "Electronics",
+	"description": "This category includes all electronics items"
+}
+-----------------------------------------------------------------------------
+---------------------------------------------------------------------
+10.GET
+http://localhost:8080/indiabazaar/admin/categoryList
+-------------------------------------------------------------------------
+--------------------------------------------------------------------
+11.DELETE
+http://localhost:8080/indiabazaar/admin/deleteCategory/1
+--------------------------------------------------------------------------
+-------------------------------------------------------------------------

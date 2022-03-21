@@ -1,0 +1,194 @@
+.title {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.btn-space {
+  margin-right: 20px;
+}
+
+.addbank {
+  width: 700px;
+}
+
+.adminlogo {
+  width: 600px;
+  padding: 10px;
+  margin-left: 200px;
+  margin: auto;
+}
+
+.mb {
+  margin-left: 300px;
+  font-size: small;
+  padding: 10px;
+  padding-right: 10px;
+}
+
+.btn btn-group {
+  border-inline-start-color: aqua;
+  align-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-style: italic;
+  font: weight 700px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.signup {
+  margin: auto;
+  width: 500px;
+  outline: 5px auto #d1cec7;
+  outline-offset: 30px;
+  margin-right: 30px;
+}
+.BGI {
+  background-image: url(/src/logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.signin {
+  margin: auto;
+  margin-right: 20px;
+  margin-top: 50px;
+  width: 500px;
+  outline: 5px auto #d1cec7;
+  outline-offset: 30px;
+}
+
+.listofcategories {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+}
+.userprofile {
+  margin: auto;
+  width: 500px;
+}
+
+.search {
+  text-align: center;
+}
+
+.adduser {
+  margin: auto;
+  width: 500px;
+}
+
+.addcategory {
+  margin: auto;
+  width: 500px;
+}
+
+.productsort {
+  margin: auto;
+  width: 900px;
+}
+
+.addproduct {
+  margin: auto;
+  width: 500px;
+}
+
+.addseller {
+  margin: auto;
+  width: 500px;
+}
+.cart {
+  font-size: large;
+  text-align: end;
+  font-style: italic;
+  background-color: gray;
+  margin: auto;
+}
+
+.usercard {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.addaddresscustomer {
+  width: 500px;
+  margin: auto;
+}
+
+.listofcategory {
+  background-color: rgb(206, 210, 218);
+}
+
+.ordermanagerprofile {
+  width: 700px;
+  text-align: center;
+}
+
+.addfeedback {
+  width: 500px;
+  margin: auto;
+}
+
+.custhome {
+  margin: auto;
+}
+
+.listoffeedback {
+  width: 500px;
+  margin: auto;
+}
+
+.listofusers {
+  margin: auto;
+}
+.deliveryperson {
+  margin: auto;
+  width: 500px;
+}
+
+.listofusertable {
+  background-color: rgb(206, 210, 218);
+}
+
+.storemanaging {
+  margin: auto;
+  width: 500px;
+}
+
+.stockbilling {
+  margin: auto;
+  width: 500px;
+}
+
+.btn-group {
+  margin: auto;
+}
+
+.img {
+  border-radius: 30%;
+  margin-bottom: 40px;
+  width: 40%;
+}
+.container {
+  float: right;
+  bottom: 0;
+}
+
+.storemgrmain {
+  margin: auto;
+  text-align: center;
+}
+.Bag {
+  background-image: url(../src/image/bimage4.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.productbtn {
+  text-align: center;
+  margin-left: 40%;
+}
